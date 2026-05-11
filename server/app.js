@@ -22,11 +22,13 @@ app.use(express.json());
 app.use("/images", express.static("public/images"));
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: [
+      "http://localhost:5173",
+      "https://YOUR_NETLIFY_NAME.netlify.app",
+    ],
     credentials: true,
   })
 );
-
 // ✅ routes (CLEAN PREFIX STRUCTURE)
 app.use("/api/v1/projects", projectRoutes);
 app.use("/api/v1/skills", skillRoutes);
