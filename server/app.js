@@ -23,8 +23,10 @@ app.use("/images", express.static("public/images"));
 app.use(
   cors({
     origin: [
+      origin: [
       "http://localhost:5173",
-      "https://YOUR_NETLIFY_NAME.netlify.app",
+      "https://shaikhjunaid49.netlify.app",
+    ],
     ],
     credentials: true,
   })
