@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-
+import AboutImg from "../../assets/About.png";
 const About = () => {
   return (
     <section id="about" className="bg-[#0a0a0a] text-white py-24 px-6">
@@ -27,7 +27,7 @@ const About = () => {
           >
             
             <img
-              src="./src/assets/About.png"
+              src={AboutImg}
               alt="profile"
               className="w-72 h-80 object-cover rounded-2xl"
             />

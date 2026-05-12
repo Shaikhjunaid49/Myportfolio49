@@ -53,10 +53,5 @@ connectDB();
 
 export default app;
 
-// in this add all other feacture and ask gpt and take help
-// now see new chat and you crate sme file and add forget password func and moer 
 
-// step three is on going in mian chat next is 4 no we done some of thse chech 
-
-// and in nav chat add some routes
-
+// see latest chat 
